@@ -5,16 +5,14 @@ class Room:
         self.guests = []
         self.songs = []
 
-    def add_songs_rooms(self, songs):
-        self.songs.append(songs)
-
     def guest_check_in(self, guest):
-        self.guest_list.append(guest)
+        self.guests.append(guest)
 
     def guest_check_out(self, guest):
-        self.guest_list.remove(guest)
+        self.guests.remove(guest)
 
-
+    def add_songs_rooms(self, songs):
+        self.songs.append(songs)
         
 
 

@@ -1,6 +1,6 @@
 import unittest
 # from classes.guest import Guest
-# from classes.room import Room
+from classes.room import Room
 from classes.song import Song
 
 class TestSong(unittest.TestCase):
@@ -16,6 +16,6 @@ class TestSong(unittest.TestCase):
         self.assertEqual("Foo Fighters - Everlong", self.song_3.name)
 
     
-
+   
 
 
